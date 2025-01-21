@@ -1,0 +1,91 @@
+*{
+    margin: 0px;
+    padding: 0px;
+  
+}
+body{
+  display: flex;
+ align-items: center;
+ justify-content: center;
+ background: #37c0a9;
+}
+
+.container{
+  margin-top: 20px;
+  width:300px ;
+  height: 400px;
+
+  text-align: center;
+
+  border: solid 1px;
+  border-color: rgb(19, 1, 1);
+}
+
+.title{
+   margin-top:40px ;
+   font-family: Vernon Adams, Jacques Le Bailly, Botjo Nikoltchev, Ani Petrova;
+}
+
+.text1{
+  margin-top: 35px;
+}
+.text2{
+  margin-top: 10px;
+}
+
+button{
+  margin: 15px;
+  width: 165px;
+  height: 20px ;
+  background-color: rgb(0, 255, 255);
+  border-radius: 5px;
+  border-style:none ;
+}
+.divider {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.divider:before,
+.divider:after {
+  content: "";
+  background: #000;
+  display: inline-block;
+  height: 1px;
+  vertical-align: middle;
+  width: calc(40% - 20px); /* Adjusts the length of the lines */
+}
+
+.divider span {
+  padding: 0 10px; /* Adjusts spacing around 'OR' */
+}
+
+.lwf{
+  text-decoration: none;
+  position:relative;
+ 
+  
+}
+
+.fg{
+  text-decoration: none;
+  position: relative;
+  margin-top:100px ;
+}
+.dha{
+  border: solid 1px;
+  margin-top:100px;
+  height: 40px;
+  
+  
+  text-align: center;
+  justify-content: center;
+  
+
+  
+}
+.signup{
+  text-decoration: none;
+  margin-top: 80px;
+}
+
